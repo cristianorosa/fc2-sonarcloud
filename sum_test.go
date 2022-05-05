@@ -37,10 +37,3 @@ func TestSunY(t *testing.T) {
 		t.Error("Then result must be 5")
 	}
 }
-func TestSunt(t *testing.T) {
-	result := sumt(3, 1)
-
-	if result != 5 {
-		t.Error("Then result must be 2")
-	}
-}
