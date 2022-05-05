@@ -25,7 +25,3 @@ func sumX(a int, b int) int {
 func sumY(a int, b int) int {
 	return a - b + a
 }
-
-func sumt(a int, b int) int {
-	return a - b + a
-}
